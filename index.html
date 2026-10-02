@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Linktree pessoal de Matheus Marks com redes profissionais e formas de contato.">
+    <title>Matheus Marks | Linktree</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231d1d1d'/><path d='M30 35 L50 55 L70 35' stroke='%23e229c4' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/><path d='M30 65 L50 45 L70 65' stroke='%23e229c4' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/><circle cx='50' cy='50' r='40' stroke='%23e229c4' stroke-width='2' fill='none' opacity='0.3'/></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img class="vscode-icon" src="img/loading-image.png" alt="Carregando Linktree">
+            
+            <div class="loading-text">Carregando Linktree</div>
+            
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            
+            <div class="loading-subtext">Seja bem vindo ao meu perfil!</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <div class="language-item" data-lang="en">
+                <span class="flag">🇺🇸</span>
+                <span>ENGLISH</span>
+            </div>
+            <div class="language-item active" data-lang="pt">
+                <span class="flag">🇧🇷</span>
+                <span>PORTUGUÊS</span>
+            </div>
+        </div>
+
+        <!-- Header Section -->
+        <div class="header">
+            <div class="profile-photo">
+                <img src="img/IMG_1027.jpeg" alt="Matheus Marks - Foto de Perfil">
+            </div>
+            <h1 class="user-name">Matheus Marks</h1>
+            <p class="user-description" data-i18n="title">Estudante de Engenharia de Software | Estagiário em Desenvolvimento de Sistemas</p>
+            <div class="profile-badge">
+                <i class="fas fa-circle"></i>
+                <span data-i18n="badge">Disponível para oportunidades</span>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="about-section">
+            <p class="about-text" data-i18n="about">
+                Sou estudante de Engenharia de Software e estagiário em Desenvolvimento de Sistemas, apaixonado por tecnologia e por transformar desafios em soluções eficientes. 
+                Com foco em desenvolvimento, bancos de dados, infraestrutura e automação, busco evoluir constantemente e contribuir para projetos que gerem impacto e resultados.
+            </p>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <div class="section-title" data-i18n="contact-title">Contato</div>
+            <a href="mailto:brmarks@proton.me" class="contact-box">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 48 48" width="38" height="38" xmlns="http://www.w3.org/2000/svg" aria-label="Proton Mail">
+                        <defs>
+                            <linearGradient id="protonGradient" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#7dffad"/>
+                                <stop offset="0.48" stop-color="#00ff66"/>
+                                <stop offset="1" stop-color="#00d957"/>
+                            </linearGradient>
+                        </defs>
+                        <path fill="url(#protonGradient)" d="M7 9.5 24 23.2 41 9.5v25.8c0 1.77-1.43 3.2-3.2 3.2H10.2A3.2 3.2 0 0 1 7 35.3V9.5Z"/>
+                        <path fill="#a8ffc5" d="M7 9.5 24 23.2 41 9.5v7.2L24 30.4 7 16.7V9.5Z" opacity=".95"/>
+                        <path fill="#00e85f" d="M7 9.5 24 23.2 24 30.4 7 16.7V9.5Z"/>
+                        <path fill="#65ff9a" d="M24 23.2 41 9.5v7.2L24 30.4v-7.2Z"/>
+                    </svg>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-title" data-i18n="email-label">ENVIAR EMAIL</div>
+                    <div class="contact-detail">brmarks@proton.me</div>
+                </div>
+                <div class="contact-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+        </div>
+
+        <!-- Social Section -->
+        <div class="social-section">
+            <div class="section-title" data-i18n="social-title">Redes Profissionais</div>
+            <div class="social-grid">
+                <a href="https://www.linkedin.com/in/matheusbarcelli/" target="_blank" rel="noopener noreferrer" class="social-box">
+                    <div class="social-content">
+                        <div>
+                            <div class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                        </div>
+                        <div class="social-info">
+                            <div class="social-title" data-i18n="linkedin-label">LINKEDIN</div>
+                            <div class="social-description" data-i18n="linkedin-desc">Conecte-se comigo</div>
+                        </div>
+                        <div class="social-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/devbymarks" target="_blank" rel="noopener noreferrer" class="social-box">
+                    <div class="social-content">
+                        <div>
+                            <div class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                        </div>
+                        <div class="social-info">
+                            <div class="social-title" data-i18n="github-label">GITHUB</div>
+                            <div class="social-description" data-i18n="github-desc">Meus projetos e contribuições Open Source</div>
+                        </div>
+                        <div class="social-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/devbymarks/" target="_blank" rel="noopener noreferrer" class="social-box">
+                    <div class="social-content">
+                        <div>
+                            <div class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="social-info">
+                            <div class="social-title" data-i18n="twitter-label">INSTAGRAM</div>
+                            <div class="social-description" data-i18n="twitter-desc">Conteúdo sobre tecnologia, projetos e carreira</div>
+                        </div>
+                        <div class="social-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://matheusbarcelli.qzz.io/" target="_blank" rel="noopener noreferrer" class="social-box">
+                    <div class="social-content">
+                        <div>
+                            <div class="social-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                        </div>
+                        <div class="social-info">
+                            <div class="social-title" data-i18n="tiktok-label">PORTFÓLIO</div>
+                            <div class="social-description" data-i18n="tiktok-desc">Projetos, estudos e informações profissionais</div>
+                        </div>
+                        <div class="social-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p data-i18n="footer">© 2026 Matheus Marks. Todos os direitos reservados.</p>
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
